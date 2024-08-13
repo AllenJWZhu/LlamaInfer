@@ -1,6 +1,6 @@
 # LLM Inference Engine
 
-![ternsorrt](./img/inference-visual-tensor-rt-llm.png)
+![ternsorrt](./imgs/inference-visual-tensor-rt-llm.png)
 
 ## Table of Contents
 - [Overview](#overview)
