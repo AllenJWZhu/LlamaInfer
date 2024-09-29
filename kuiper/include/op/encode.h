@@ -4,7 +4,7 @@
 #include "layer.h"
 namespace op {
 class EncodeLayer : public Layer {
- public:
+public:
   explicit EncodeLayer(base::DeviceType device_type);
 
   explicit EncodeLayer(
@@ -15,9 +15,11 @@ class EncodeLayer : public Layer {
 
   std::string decode(int32_t token_id) const;
 
+  std::string decode(const std::vector<int32_t>& token_ids) const;
+
   int32_t eos() const;
 
- private:
+private:
   bool has_bos_ = true;
   bool has_eos_ = false;
   std::unique_ptr<sentencepiece::SentencePieceProcessor> spe;
