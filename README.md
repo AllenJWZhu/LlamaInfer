@@ -2,6 +2,8 @@
 
 ![ternsorrt](./imgs/inference-visual-tensor-rt-llm.png)
 
+(The support for LlaMA 3.2 is still in progress)
+
 ## Table of Contents
 - [Overview](#overview)
 - [Features](#features)
