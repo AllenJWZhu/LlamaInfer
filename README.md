@@ -46,8 +46,6 @@ On an NVIDIA RTX 3060 Laptop GPU, the engine achieves:
 
 - 60.34 tokens/second for LLaMA 1.1B (FP32)
 
-![](./imgs/do.gif)
-
 ## Dependencies
 
 - CUDA Toolkit 11.4+
